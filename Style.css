@@ -1,0 +1,107 @@
+*{
+    background-color: #385553;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23385553' cx='50' cy='0' r='50'/%3E%3Cg fill='%23395d5a' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%233a6561' cx='50' cy='100' r='50'/%3E%3Cg fill='%233a6d68' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%233b756f' cx='50' cy='200' r='50'/%3E%3Cg fill='%233b7d76' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%233b857c' cx='50' cy='300' r='50'/%3E%3Cg fill='%233b8d83' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%233b968a' cx='50' cy='400' r='50'/%3E%3Cg fill='%233b9e90' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%233ba796' cx='50' cy='500' r='50'/%3E%3Cg fill='%233baf9d' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%233bb8a3' cx='50' cy='600' r='50'/%3E%3Cg fill='%233bc0a9' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%233cc9af' cx='50' cy='700' r='50'/%3E%3Cg fill='%233cd2b5' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%233ddbba' cx='50' cy='800' r='50'/%3E%3Cg fill='%233fe4c0' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%2340edc5' cx='50' cy='900' r='50'/%3E%3Cg fill='%2342f6cb' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%2345FFD0' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: contain;
+    background-attachment: fixed;
+    background-size: contain;
+    background-attachment: fixed;
+    background-size: contain;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+    line-height: 150%;
+
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width:10%
+    
+    }
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+.text-area{
+    font-size: 24px;
+    border: none;
+    color: #0A3871;
+    margin-top: 10px;
+    text-transform: lowercase;
+}
+::placeholder {color: #0A3871;}
+    .text-area :focus{
+        outline: none;
+    }
+
+.mensaje{
+    font-size: 24px;
+    background: white;
+    background-image: url(imagenes/Muñeco.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+
+
+}    
+.mensaje:focus {
+    outline: none;
+}
+.botones{
+    display: flex;
+   margin-top: 18px;
+}
+.btn-desencriptar{
+    font-size: 24px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 100px;
+    width: 328px;
+}
+.btn-encriptar{
+    font-size: 24px;
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+.btn{
+    font-size: 24px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    background: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;
+}
+#informacion{
+    color: #495057;
+    font-size: 1em;
+
+}
+
+.footer{
+    font-family: 'Montserrat', sans-serif;
+    color: #495057;
+    font-size: 15px;
+    text-align: center;
+}
